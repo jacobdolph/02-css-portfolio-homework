@@ -11,54 +11,60 @@
 </head>
 
 <body>
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- I am going to try to have a container on the left and one on the right -->
     <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark col-md-12">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-
-                </ul>
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <h1>About Me</h1>
+            <div class="row">
+                <img class="border border-light col-md-3" src="http://placehold.it/150x150" alt="nothing" style="
+                    padding-left: 1px;
+                    padding-right: 1px;
+                    margin-left: 13px;">
+                <p class="col-md-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, laboriosam
+                    soluta tenetur eveniet
+                    fuga veritatis quaerat mollitia voluptatum ea doloremque obcaecati cum suscipit quidem voluptatibus,
+                    nesciunt excepturi tempore natus molestiae!</p>
             </div>
-        </nav>
-
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3">
-                <h1>About Me</h1>
-            </div>
-            <div class="col-md-6"></div>
-
-            <div class="col-md-3"></div>
         </div>
-        <div class="row">
-            <div class="col-md-3">
-                <img src="http://placehold.it/150x150" alt="nothin">
-            </div>
-            <div class="col-md-6">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repudiandae animi beatae alias,
-                    delectus,
-                    ex consectetur fuga saepe rerum tempora dolorum ab incidunt, odio pariatur obcaecati magnam eveniet
-                    fugit
-                    illum.</p>
-                <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+
+                </div>
             </div>
         </div>
 
     </div>
+
+
 
 
 </body>
