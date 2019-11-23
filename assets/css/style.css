@@ -1,4 +1,29 @@
 body {
     background-image: url(../images/concrete-texture.png);
+  overflow: auto;
+}
 
+.profile-button {
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 5% 0%;
+    font-size: 100%;
+    line-height: 1rem;
+
+}
+
+#message-box {
+    resize: none;
+    height: 200px;
+}
+
+#page-footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background-color: #333;
+    color:lightgrey;
+    border-top: 3px solid #17a2b8;
 }

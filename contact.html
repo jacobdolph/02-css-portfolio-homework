@@ -13,62 +13,74 @@
 
 <body>
     <!-- navigation bar -->
+    <container>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info text-white">
+            <a class="navbar-brand" href="#">Jacob Dolph</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info text-white">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
-                </li>
-                </li>
-            </ul>
-        </div>
-    </nav>
+        <!-- I am going to try to have a container on the left, middle and one on the right -->
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8 bg-light border border-light rounded-lg">
+                <h1>Contact</h1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Name</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="First Name Last Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </div>
 
-    <!-- I am going to try to have a container on the left, middle and one on the right -->
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-            <h1>Contact</h1>
-            <div class="row">
-                <div class="col-md-12">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Name</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="First Name Last Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlInput1">Email address</label>
-                            <input type="email" class="form-control" id="exampleFormControlInput1"
-                                placeholder="name@example.com">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                    </form>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea id="message-box" class="form-control" id="exampleFormControlTextarea1"
+                                    rows="3"></textarea>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
+
+            <div class="col-md-2"></div>
         </div>
 
-        <div class="col-md-2"></div>
-    </div>
+
+
+        <div id="page-footer">
+            <p>copyright &copy;</p>
 
 
 
+        </div>
+
+
+
+    </container>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
